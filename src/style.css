@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: dodgerblue;
+    font-family: monospace, sans-serif;
+    font-size: 16px;
+}
+
+ul{
+    margin: 20px 0 0 20px;
+    padding: 0;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px #888888;
+    width: 400px;
+}
+
+#password-input{
+    font-family: monospace,sans-serif;
+    width: 150px;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
